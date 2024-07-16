@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import socketIOClient from "socket.io-client";
+import { useEffect, useState } from "react";
+import "./styles.css";
 
 const ENDPOINT = "http://localhost:3000/api/v1/crypto"; // Replace with your server endpoint
 const coinCodes = ["bitcoin", "ethereum", "grin", "bnb", "solana"];
@@ -38,11 +38,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Stocks or Cryptos</h1>
+      <h1>Crypto Price</h1>
       <select value={crypto} onChange={handleCrypto}>
         {coinCodes.map((coin) => (
           <option key={coin} value={coin}>
-            {coin}
+            {coin.at(0).toUpperCase() + coin.substring(1)}
           </option>
         ))}
       </select>
@@ -62,7 +62,7 @@ function App() {
               <td>
                 <img src={stock.image} alt={stock.name} />
               </td>
-              <td>{stock.usd}</td>
+              <td>{stock.usd.toFixed(2)}</td>
               <td>{stock.volume}</td>
             </tr>
           ))}

@@ -12,7 +12,6 @@ app.use(cors());
 app.get('/api/v1/crypto', async (req, res) => {
   try {
     const data = await Crypto.find({}, null, options);
-    console.log(data);
 
     res.status(200).json({
       status: 'success',
