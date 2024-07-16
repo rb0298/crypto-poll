@@ -41,7 +41,6 @@ exports.fetchCryptoData = async () => {
     );
 
     const data = await response.json();
-    console.log('hi');
     const coinCodes = ['BTC', 'ETH', 'GRIN', 'BNB', 'SOL'];
     const cryptoData = {
       timestamp: new Date()
