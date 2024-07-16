@@ -1,8 +1,52 @@
-# React + Vite
+# Frontend Application for Real-Time Cryptocurrency Data Display
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A frontend application built with Vite to fetch real-time cryptocurrency data from your backend API and display it in a table format.
+
+
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#TechnologiesUsed)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+Fetches real-time cryptocurrency data from a backend API.
+Displays data in a table format.
+Automatically updates with new data.
+
+## Technologies Used
+Vite
+React
+
+## Installation
+
+Clone the repository:
+git clone https://github.com/rb0298/crypto-poll
+
+Install dependencies:
+git install
+
+## Usage
+
+Development
+Start the Vite development server:
+
+npm run dev
+
+
+## Authors
+Rahul Bansal
+
+##License
+This project is licensed under the MIT License.
+
+
