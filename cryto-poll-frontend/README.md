@@ -14,7 +14,6 @@ A frontend application built with Vite to fetch real-time cryptocurrency data fr
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -46,7 +45,7 @@ npm run dev
 ## Authors
 Rahul Bansal
 
-##License
+## License
 This project is licensed under the MIT License.
 
 
